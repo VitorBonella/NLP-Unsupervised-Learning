@@ -7,7 +7,7 @@ Que são basicamento a junção dos gêneros requisitados do Database original, 
 ***NLP***.
 
 ## Criação do conjunto de dados
-O notebook *CriaConjunto.ipynb* pega os dados de cada gênero .json com prefixo **goodreads_books_*[gender]***
+O notebook *ProcessamentoDosDados.ipynb* pega os dados de cada gênero .json com prefixo **goodreads_books_*[gender]***
 na pasta "/data" e gera um .json contendo todas as informações requisitadas no trabalho dos livros dos respectivos
 gêneros. Com isso, o tempo de carregamento dos dados na etapa seguinte foi otimizada.
 
