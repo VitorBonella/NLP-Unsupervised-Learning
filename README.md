@@ -26,19 +26,18 @@ and this method are more efficient.
 
 ## 3. Unsupervised cluster
 
-First, we analyse the best **number of groups** with kElbowMethod, using kmeans, and Dendogram:
+First, we analyze the best **number of groups** with kElbowMethod, using kmeans, and Dendogram:
 ![KElbow visualizer](Images/KElbow.png)
 ![Dendogram](Images/Dendogram.png)
 
 
 Then, applied two unsupervised methods for clustering, KMeans and Hierachical Cluster, where the KMeans got the best score. 
-Thereafter we maked some visualization of the results:
+Thereafter, we made some visualization of the results:
 ##### 1. The distribution of the clusters got from Kmeans:
 ![Kmeans distribuition](Images/KmeansDist.png)
 
 ##### 2. A 2D visualization of the clusters
 ![2D Visualization](Images/View2D.png)
-
 
 ##### Authors: 
 + Igor Varejão
